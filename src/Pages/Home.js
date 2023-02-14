@@ -12,16 +12,6 @@ const Home = () => {
       }}
     >
       <Alphabets />
-      <Alphabets />
-      <Alphabets />
-      <Alphabets />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
       <Number />
     </div>
   );

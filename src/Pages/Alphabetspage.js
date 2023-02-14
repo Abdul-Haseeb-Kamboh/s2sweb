@@ -36,30 +36,27 @@ const Alphabetspage = () => {
         flex: 1,
         display: "block",
         justifyContent: "space-around",
-        // alignItems: "center",
+        alignItems: "center",
         flexDirection: "column",
+        marginLeft: 70,
       }}
     >
       {AlphabetsImages.map((image, index) => {
         return (
           <div
             style={{
-              width: 250,
-              height: 250,
+              // width: 300,
+              // height: 280,
               flex: 1,
               display: "inline-block",
-              //   flexWrap: "wrap",
-              //   justifyContent: "center",
-              //   alignItems: "center",
               margin: 10,
-              border: "1px solid green",
             }}
           >
             <img
               key={index}
               src={image}
               alt="Alphabets"
-              style={{ width: 150, height: 150 }}
+              style={{ width: 250, height: 300, borderRadius: 20 }}
             />
           </div>
         );

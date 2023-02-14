@@ -87,15 +87,16 @@ function DrawerAppBar(props) {
             <MenuIcon />
           </IconButton>
           <Typography
-            variant="h6"
+            variant="h4"
             component="div"
             sx={{
               flexGrow: 1,
               color: "#000",
+              fontWeight: "bold",
               display: { xs: "none", sm: "block" },
             }}
           >
-            S2S Modulo
+            ᔕ2ᔕ ᗰOᗪᑌᒪO
           </Typography>
           <Box
             sx={{ display: { xs: "none", sm: "block" } }}
